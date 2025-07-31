@@ -31,4 +31,31 @@ const myFunction = function (){
     
 }
 
-console.log(typeof heros);
+// console.log(typeof heros);
+
+
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ //
+
+// Stack (Primitive), Heap (Non-primitive)
+
+let oldname = "Ironman"
+let newname = "Captain America"
+newname = "Hulk"
+
+console.log(newname);
+console.log(oldname);
+
+let userOne = {
+    name : "Praveen",
+    age : 23
+};
+
+let userTwo = userOne
+// console.log(userTwo);
+userTwo.name = "Santosh"
+console.log(userTwo);
+
+console.log(userOne);
+
