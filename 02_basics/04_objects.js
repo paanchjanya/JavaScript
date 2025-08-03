@@ -59,5 +59,27 @@ console.log(user);
 // console.log(Object.entries(user));
 
 // console.log(user.hasOwnProperty('isLogge/dIn'));
-console.log(user.toLocaleString());
+// console.log(user.toLocaleString());
 
+
+// Object de - structure
+const course = {
+    coursename : "JS in english",
+    price : "499",
+    courseInstructor : "Praveen Desai"
+}
+
+const{courseInstructor : ci} = course
+console.log(ci);
+
+// "JSON"
+//  {
+//     "name" : "Desai",
+//     "coursename128" : "py",
+//     "amount" : "free"
+//  }
+
+// Array of Objects
+// [
+//     {},{},{},{},{}
+// ]
