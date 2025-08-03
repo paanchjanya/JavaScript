@@ -17,7 +17,7 @@ const res = another_array.flat(Infinity)
 // console.log(res);
 
 console.log(Array.isArray("Praveen"));
-console.log(Array.from("Praveen"));
+// console.log(Array.from("Praveen"));
 
 console.log(Array.from({name : "Praveen"}));
 
@@ -26,5 +26,5 @@ let s1 = 10
 let s2 = 20
 let s3 = 30
 
-console.log(Array.of(s1,s2,s3));
+// console.log(Array.of(s1,s2,s3));
 
