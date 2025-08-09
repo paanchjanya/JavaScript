@@ -1,7 +1,7 @@
 # Projects related to DOM
 
 ## Project Link
-[Click Here](https://stackblitz.com/dom-project-chaiaurcode?file=index.html)
+[Click Here](https://mail.google.com/mail/u/0/#inbox)
 
 # Solution Code 
 
