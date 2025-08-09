@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    <ul class="language">
+        <li>JavaScript</li>
+    </ul>
+</body>
+<script>
+    function addLanguage(langName) {
+        const li = document.createElement('li')
+        li.innerHTML = `${langName}`
+        document.querySelector('.language').appendChild(li)
+    }
+
+    addLanguage('Python')
+    addLanguage('Java')
+    addLanguage('C++')
+    
+    // Optmized approach
+         function addOptilanguage(langName) {
+            const li = document.createElement('li')
+            li.appendChild(document.createTextNode(langName))
+            document.querySelector('.language').appendChild(li)
+         }
+         addOptilanguage('PHP')
+         addOptilanguage('CSS')
+
+        //  Edit
+        const secondElement = document.querySelector('li:nth-child(2)')
+
+        // Unoptimized way
+        // secondElement.innerHTML = "Praveen"
+        const newli = document.createElement('li')
+        newli.textContent = "Mojo"
+        secondElement.replaceWith(newli)
+        
+
+        // Edit
+        const firstElement = document.querySelector("li:first-child")
+         firstElement.outerHTML = "<li>Desai</li>"
+
+
+        //  Remove 
+        const lastElement = document.querySelector('li:last-child')
+        lastElement.remove()
+
+
+</script>
+</html>
