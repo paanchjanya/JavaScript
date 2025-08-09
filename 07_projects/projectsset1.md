@@ -36,9 +36,9 @@ buttons.forEach( function(button){
             body.style.backgroundColor = 'black'
         }
         
-    })
+    });
     
-})
+});
 
 
 
