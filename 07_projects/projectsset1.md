@@ -1,3 +1,5 @@
+// The above code consists of a Number Guessing Game project implemented using HTML, CSS, and
+// JavaScript. Here is a brief overview of each project:
 # Projects related to DOM
 
 ## Project Link
