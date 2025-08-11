@@ -7,6 +7,136 @@
 
 
 ## Project-1
+### Color Scheme Switicher
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>JavaScript Background Color Switcher</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <nav>
+        <a href="/"  aria-current="page">Home</a>
+        <a target="_blank" href="https://www.youtube.com">youtube</a>
+    </nav>
+
+        <div class="canvas">
+            <h1>Color Scheme Switcher</h1>
+            <span class="button" id="grey"></span>
+            <span class="button" id="white"></span>
+            <span class="button" id="blue"></span>
+            <span class="button" id="yellow"></span> 
+            <span class="button" id="purple"></span>   
+            <h2>Try clicking on one of the colors above
+                <span>to change background color of this page!</span>
+            </h2>
+
+        </div>
+    </body>
+    <script src="one.js"></script>
+</html>
+
+
+````
+
+
+```css
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+nav {
+    background-color: #333;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.canvas {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 30px;
+    font-size: 32px;
+    color: #333;
+}
+
+h2 {
+    margin-top: 30px;
+    font-size: 20px;
+    color: #555;
+    line-height: 1.5;
+}
+
+h2 span {
+    display: block;
+    font-weight: normal;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.button {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 3px solid #000;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+#grey {
+    background-color: grey;
+}
+
+#white {
+    background-color: white;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#yellow {
+    background-color: yellow;
+}
+#purple{
+    background-color: purple;
+}
+
+```
+
+
 
 ```javascript
 const buttons = document.querySelectorAll('.button')
