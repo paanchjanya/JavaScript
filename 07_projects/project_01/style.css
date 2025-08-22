@@ -59,7 +59,7 @@ h2 span {
     width: 100px;
     height: 100px;
     margin: 10px;
-    border: 3px solid #000;
+    
     border-radius: 10px;
     cursor: pointer;
     transition: transform 0.2s ease;
@@ -77,8 +77,8 @@ h2 span {
     background-color: white;
 }
 
-#blue {
-    background-color: blue;
+#skyblue {
+    background-color: rgb(137, 196, 244);
 }
 
 #yellow {
